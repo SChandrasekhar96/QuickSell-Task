@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kanban-Board</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        `<section id="header">
+            <div id="display">
+                <img src=".\icons_FEtask\display.svg">
+                <p>Display</p>
+                <img src=".\icons_FEtask\down.svg" onclick="displayMenu()" ondblclick="hideMenu()">
+            </div>
+            <div class="disp-men">
+                <div id="disp-men1">
+                    <p>Grouping</p>
+                    <div id="status">
+                        <p>Status</p>
+                        <img src=".\icons_FEtask\down.svg" onclick="showType()" ondblclick="hideType()">
+                    </div>
+                </div>
+                <div class="type">
+                    <a href="index.html">Status</a>
+                    <a href="people.html">people</a>
+                </div>
+                <div id="disp-men2">
+                    <p>Ordering</p>
+                    <div id="priority">
+                        <p>Priority</p>
+                        <img src=".\icons_FEtask\down.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="content">
+            <div id="task1">
+                <div id="task-head">
+                    <div id="th-left">
+                        <img id="" src=".\icons_FEtask\Backlog.svg">
+                <span>Backlog</span>
+                    </div>
+                
+                <div id="th-right">
+                    <img id="add" src=".\icons_FEtask\add.svg">
+                    <img id="menu" src=".\icons_FEtask\3 dot menu.svg">
+                </div>
+                </div>
+                <div id="task-body">
+                    <div class="card">
+                        <div id="ch">
+                            <h3>CAM-5</h3>
+                            <img src=".\icons_FEtask\5.png">
+                        </div>
+                        <h2 id="mat">Add Multi-Language Support-Enable</br> multi-language support within the...</h2>
+                        <div id="cf">
+                            <div id="cf-left">
+                                <img src=".\icons_FEtask\No-priority.svg">
+                            </div>
+                            <p>Feature Request</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div id="ch">
+                            <h3>CAM-8</h3>
+                            <img src=".\icons_FEtask\image (3).png">
+                        </div>
+                        <h2 id="mat">Create Onboarding Tutorial for New Users</h2>
+                        <div id="cf">
+                            <div id="cf-left">
+                                <img src=".\icons_FEtask\Img - High Priority.svg">
+                            </div>
+                            <p>Feature Request</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="task1">
+                <div id="task-head">
+                    <div id="th-left">
+                        <img id="" src=".\icons_FEtask\To-do.svg">
+                <span>Todo</span>
+                    </div>
+                
+                <div id="th-right">
+                    <img id="add" src=".\icons_FEtask\add.svg">
+                    <img id="menu" src=".\icons_FEtask\3 dot menu.svg">
+                </div>
+                </div>
+                <div id="task-body">
+                    <div class="card">
+                        <div id="ch">
+                            <h3>CAM-4</h3>
+                            <img src=".\icons_FEtask\image (3).png">
+                        </div>
+                        <h2 id="mat">Add Multi-Language Support</h2>
+                        <div id="cf">
+                            <div id="cf-left">
+                                <img src=".\icons_FEtask\No-priority.svg">
+                            </div>
+                            <p>Feature Request</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div id="ch">
+                            <h3>CAM-2</h3>
+                            <img src=".\icons_FEtask\6.png">
+                        </div>
+                        <h2 id="mat">Implement Email Notification System</h2>
+                        <div id="cf">
+                            <div id="cf-left">
+                                <img src=".\icons_FEtask\No-priority.svg">
+                            </div>
+                            <p>Feature Request</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div id="ch">
+                            <h3>CAM-1</h3>
+                            <img src=".\icons_FEtask\image.png">
+                        </div>
+                        <h2 id="mat">Update User Profile Page UI</h2>
+                        <div id="cf">
+                            <div id="cf-left">
+                                <img src=".\icons_FEtask\No-priority.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="task1">
+                <div id="task-head">
+                    <div id="th-left">
+                        <img id="" src=".\icons_FEtask\in-progress.svg">
+                <span>In Progress</span>
+                    </div>
+                
+                <div id="th-right">
+                    <img id="add" src=".\icons_FEtask\add.svg">
+                    <img id="menu" src=".\icons_FEtask\3 dot menu.svg">
+                </div>
+                </div>
+                <div id="task-body">
+                    <div class="card">
+                        <div id="ch">
+                            <h3>CAM-3</h3>
+                            <img src=".\icons_FEtask\image.png">
+                        </div>
+                        <h2 id="mat">Optimize Database Queries for performance</h2>
+                        <div id="cf">
+                            <div id="cf-left">
+                                <img src=".\icons_FEtask\No-priority.svg">
+                            </div>
+                            <p>Feature Request</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="task1">
+                <div id="task-head">
+                    <div id="th-left">
+                        <img id="" src=".\icons_FEtask\Done.svg">
+                <span>Done</span>
+                    </div>
+                
+                <div id="th-right">
+                    <img id="add" src=".\icons_FEtask\add.svg">
+                    <img id="menu" src=".\icons_FEtask\3 dot menu.svg">
+                </div>
+                </div>
+                <div id="task-body">
+                    <div class="card">
+                        <div id="ch">
+                            <h3>CAM-6</h3>
+                            <img src=".\icons_FEtask\6.png">
+                        </div>
+                        <h2 id="mat">Enhance Search Functionality</h2>
+                        <div id="cf">
+                            <div id="cf-left">
+                                <img src=".\icons_FEtask\No-priority.svg">
+                            </div>
+                            <p>Feature Request</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div id="ch">
+                            <h3>CAM-7</h3>
+                            <img src=".\icons_FEtask\image (1).png">
+                        </div>
+                        <h2 id="mat">Integrate Third-Party Payment Gateway</h2>
+                        <div id="cf">
+                            <div id="cf-left">
+                                <img src=".\icons_FEtask\No-priority.svg">
+                            </div>
+                            <p>Feature Request</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div id="ch">
+                            <h3>CAM-11</h3>
+                            <img src=".\icons_FEtask\image (2).png">
+                        </div>
+                        <h2 id="mat">Conduct Security Vulnerability Assesment</h2>
+                        <div id="cf">
+                            <div id="cf-left">
+                                <img src=".\icons_FEtask\No-priority.svg">
+                            </div>
+                            <p>Feature Request</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div id="ch">
+                            <h3>CAM-10</h3>
+                            <img src=".\icons_FEtask\image (3).png">
+                        </div>
+                        <h2 id="mat">Upgrade Server Infrastructure</h2>
+                        <div id="cf">
+                            <div id="cf-left">
+                                <img src=".\icons_FEtask\No-priority.svg">
+                            </div>
+                            <p>Feature Request</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div id="ch">
+                            <h3>CAM-9</h3>
+                            <img src=".\icons_FEtask\5.png">
+                        </div>
+                        <h2 id="mat">Implement Role-Based Access Control(RBAC)</h2>
+                        <div id="cf">
+                            <div id="cf-left">
+                                <img src=".\icons_FEtask\No-priority.svg">
+                            </div>
+                            <p>Feature Request</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="task1">
+                <div id="task-head">
+                    <div id="th-left">
+                        <img id="" src=".\icons_FEtask\Cancelled.svg">
+                <span>Cancelled</span>
+                    </div>
+                
+                <div id="th-right">
+                    <img id="add" src=".\icons_FEtask\add.svg">
+                    <img id="menu" src=".\icons_FEtask\3 dot menu.svg">
+                </div>
+                </div>
+                <div id="task-body">
+                </div>
+                
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
